@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-auth"
+version = "1.0"
+description = "\"Creates a system of authentication with flask\""
+authors = ["Lucas Gomes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask-jwt-extended = "*"
+flask = "*"
+sqlalchemy = "^2.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
